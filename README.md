@@ -13,7 +13,7 @@ $flash->addFlash('errorUser', 'Имя не может быть пустым');
 ``` 
 # Проверка на наличие ключа в сессии
 ```php
-$flashMessage->issetMessage('errorUser');
+$flashMessage->issetFlash('errorUser');
 ```
 # Выводим сообщение по ключу
 ```php
